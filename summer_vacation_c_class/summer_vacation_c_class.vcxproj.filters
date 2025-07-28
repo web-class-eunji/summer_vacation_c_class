@@ -42,5 +42,8 @@
     <ClCompile Include="변수의출력.c">
       <Filter>소스 파일\day3</Filter>
     </ClCompile>
+    <ClCompile Include="값의범위.c">
+      <Filter>소스 파일\day3</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
