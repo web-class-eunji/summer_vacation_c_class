@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\day8">
       <UniqueIdentifier>{0a641d6f-72c2-4b8f-a695-4c8c0459eff9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day9">
+      <UniqueIdentifier>{8ba64dbe-9ac9-40ee-b055-f751a0b22673}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -128,6 +131,15 @@
     </ClCompile>
     <ClCompile Include="스위치계산기.c">
       <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="while문.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="doWhile문.c">
+      <Filter>소스 파일\day9</Filter>
+    </ClCompile>
+    <ClCompile Include="for문.c">
+      <Filter>소스 파일\day9</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
