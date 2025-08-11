@@ -7,13 +7,17 @@ main(void)
 
 	int numbers[5] = { 10,20,30,40,50 }; // 초기화리스트
 	//int numbers[] = { 1,2,3 };
+	numbers[0] = 100;
 	
 	int max;
 	max = numbers[0];
 	for (int i = 1; i < 5; i++) {
-		if()
-			// 만약 max가 int i 로 접근한 데이터보다 작다면 max에 더 큰 값을 대입한다.
+		if (max < numbers[i]) {
+			max = numbers[i];
+		}
+		// 만약 max가 int i 로 접근한 데이터보다 작다면 max에 더 큰 값을 대입한다.
 	}
+	printf("최대값 : %d\n", max);
 	
 	return 0;
 }
